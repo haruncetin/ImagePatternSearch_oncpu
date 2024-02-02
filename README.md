@@ -10,9 +10,11 @@ The algorithm resembles basically convolution process except it makes comparison
 
 The implementation needs only [lodepng](https://lodev.org/lodepng/) PNG image processing library, yet it is embedded into the project.
 
+You can download test images [here](https://drive.google.com/file/d/14GBRgUel3fOdJVDOdlZ3HJh3_1vUsWZt/view?usp=sharing)
+
 ## Compilation
 ### Windows
-You may need [GnuMake32](https://gnuwin32.sourceforge.net/downlinks/make.php). Please download it first and install if you haven't.
+You may need [GnuMake32](https://gnuwin32.sourceforge.net/downlinks/make.php). Please download and install it first if you haven't.
 
 Then, in the project root folder, run
 
