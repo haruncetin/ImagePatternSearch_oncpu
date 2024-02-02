@@ -10,7 +10,7 @@ The algorithm resembles basically convolution process except it makes comparison
 
 The implementation needs only [lodepng](https://lodev.org/lodepng/) PNG image processing library, yet it is embedded into the project.
 
-You may need test images. You can download it [here](https://drive.google.com/file/d/14GBRgUel3fOdJVDOdlZ3HJh3_1vUsWZt/view?usp=sharing)
+You may need test images. You can download [here](https://drive.google.com/file/d/14GBRgUel3fOdJVDOdlZ3HJh3_1vUsWZt/view?usp=sharing). These all random checker images of different sizes. You can also create your own test images [here](https://onlinetools.com/image/generate-random-image).
 
 ## Compilation
 ### Windows
