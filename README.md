@@ -27,10 +27,46 @@ After invoking the "make", it will start to compile the project according to you
 After the compilation, you can run the program with a command line statement like this:
 
 ```
+make run ARGS="../images/image_8192.png ../images/pattern_8192_1.png"
+```
+
+Or
+
+```
 psearch.exe ../images/image_8192.png ../images/pattern_8192_1.png
 ```
 
 <img src="/assets/images/impl_cpu_ss_1.png" alt="Pattern search implementation running on Windows" style="width:%75;" target="_blank"/>
+
+### Linux
+PLease make sure you installed build-essential, llvm-14, lldb-14 and clang-14 packages. If you haven't you can install it by following:
+
+```
+sudo apt update
+sudo apt install build-essential llvm-14 lldb-14 clang-14
+```
+
+Then, in the project root folder, run
+
+```
+make
+```
+
+After invoking the "make", it will start to compile the project according to your OS. 
+
+#### Run
+
+After the compilation, you can run the program with a command line statement like this:
+
+```
+make run ARGS="./images/image_8192.png ./images/pattern_8192_1.png"
+```
+
+Or
+
+```
+./build/release/psearch ./images/image_8192.png ./images/pattern_8192_1.png
+```
 
 ## Resources
 You may need test images. You can download [here](https://drive.google.com/file/d/14GBRgUel3fOdJVDOdlZ3HJh3_1vUsWZt/view?usp=sharing). These all random checker images of different sizes. You can also create your own test images [here](https://onlinetools.com/image/generate-random-image).
