@@ -23,5 +23,5 @@ make
 After invoking the "make", it will start to compile the project according to your OS. After the compilation, you can run the program with a command line statement like this:
 
 ```
-psearch.exe ../images/image_1024.png ../images/pattern_1024_1.png
+psearch.exe ../images/image_8192.png ../images/pattern_8192_1.png
 ```
