@@ -50,9 +50,9 @@ $(OBJS_DEBUG): init-dirs
 $(OBJS_RELEASE): init-dirs
 
 init-dirs:
-	mkdir $(BUILD_DIR)
-	mkdir $(DEBUG_DIR)
-	mkdir $(RELEASE_DIR)
+	mkdir -p $(BUILD_DIR)
+	mkdir -p $(DEBUG_DIR)
+	mkdir -p $(RELEASE_DIR)
 
 clean:
 	rm $(DEBUG_DIR)/*.o $(RELEASE_DIR)/*.o

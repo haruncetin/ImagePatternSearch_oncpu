@@ -41,7 +41,7 @@ int main(int argc, char *argv[]) {
   p_search(I, I_width, P, P_width);
   end = clock ();
   cpu_time_used = ((double) (end - start));
-  printf ("The code took %.8f milliseconds.\n", cpu_time_used);
+  printf ("The code took %f milliseconds.\n", cpu_time_used);
   printf("\n");
 
   free(I);
