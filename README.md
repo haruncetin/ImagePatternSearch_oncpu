@@ -28,5 +28,5 @@ After invoking the "make", it will start to compile the project according to you
 psearch.exe ../images/image_8192.png ../images/pattern_8192_1.png
 ```
 
-<img src="/assets/images/impl_cpu_ss_1.png" alt="Pattern search implementation running on Windows" style="width:%75;"/>
+<img src="/assets/images/impl_cpu_ss_1.png" alt="Pattern search implementation running on Windows" style="width:%75;" target="_blank"/>
 
