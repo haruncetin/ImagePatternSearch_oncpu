@@ -10,8 +10,6 @@ The algorithm resembles basically convolution process except it makes comparison
 
 The implementation needs only [lodepng](https://lodev.org/lodepng/) PNG image processing library, yet it is embedded into the project.
 
-You may need test images. You can download [here](https://drive.google.com/file/d/14GBRgUel3fOdJVDOdlZ3HJh3_1vUsWZt/view?usp=sharing). These all random checker images of different sizes. You can also create your own test images [here](https://onlinetools.com/image/generate-random-image).
-
 ## Compilation
 ### Windows
 You may need [GnuMake32](https://gnuwin32.sourceforge.net/downlinks/make.php). Please download and install it first if you haven't.
@@ -22,11 +20,18 @@ Then, in the project root folder, run
 make
 ```
 
-After invoking the "make", it will start to compile the project according to your OS. After the compilation, you can run the program with a command line statement like this:
+After invoking the "make", it will start to compile the project according to your OS. 
+
+#### Run
+
+After the compilation, you can run the program with a command line statement like this:
 
 ```
 psearch.exe ../images/image_8192.png ../images/pattern_8192_1.png
 ```
 
 <img src="/assets/images/impl_cpu_ss_1.png" alt="Pattern search implementation running on Windows" style="width:%75;" target="_blank"/>
+
+## Resources
+You may need test images. You can download [here](https://drive.google.com/file/d/14GBRgUel3fOdJVDOdlZ3HJh3_1vUsWZt/view?usp=sharing). These all random checker images of different sizes. You can also create your own test images [here](https://onlinetools.com/image/generate-random-image).
 
