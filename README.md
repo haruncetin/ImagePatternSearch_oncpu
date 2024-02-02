@@ -10,7 +10,7 @@ The algorithm resembles basically convolution process except it makes comparison
 
 The implementation needs only [lodepng](https://lodev.org/lodepng/) PNG image processing library, yet it is embedded into the project.
 
-You can download test images [here](https://drive.google.com/file/d/14GBRgUel3fOdJVDOdlZ3HJh3_1vUsWZt/view?usp=sharing)
+You may need test images. You can download it [here](https://drive.google.com/file/d/14GBRgUel3fOdJVDOdlZ3HJh3_1vUsWZt/view?usp=sharing)
 
 ## Compilation
 ### Windows
