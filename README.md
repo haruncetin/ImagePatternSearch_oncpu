@@ -71,5 +71,7 @@ Or
 ## Resources
 You may need test images. You can download [here](https://drive.google.com/file/d/14GBRgUel3fOdJVDOdlZ3HJh3_1vUsWZt/view?usp=sharing). These all random checker images of different sizes.
 
-You can also create your own test images [here](https://onlinetools.com/image/generate-random-image). Note that you may need some some edit & conversion for the images newly created. If you need an image editor I recommend you free and open-source [Krita](https://krita.org/en/) image editing application.
+You can also create your own test images [here](https://onlinetools.com/image/generate-random-image). Note that you may need some edit & conversion for the images newly created. Firstly you sould convert color space to 16-bit Grayscale/Alpha. Then, you should extract some 5x5 patches from the image for the test pattern. 
+
+If you need an image editor I recommend you free and open-source [Krita](https://krita.org/en/) image editing & painting application.
 
